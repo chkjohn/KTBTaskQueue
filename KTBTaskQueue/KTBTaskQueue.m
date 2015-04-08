@@ -39,7 +39,7 @@ static dispatch_queue_t task_queue_processing_queue() {
     return ktb_task_queue_processing_queue;
 }
 
-const NSTimeInterval KTBTaskQueueDefaultPollingInterval = 10;
+const NSTimeInterval KTBTaskQueueDefaultPollingInterval = 2;
 
 @interface KTBTask (QueueAdditions)
 - (NSString *)userInfoString;
